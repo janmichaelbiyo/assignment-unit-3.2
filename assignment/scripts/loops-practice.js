@@ -48,11 +48,20 @@ for (let element of stars){console.log(element)};
 console.log('---- 3. While loop ----');
 
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
+
 console.log('Some stars using while:');
 
-let i = 0
-let text = ""
-while (stars[i]) {text += stars[i]; ++i; console.log(text)}
+//let i = 0
+//let text = ""
+//while (stars[i]) {text += stars[i]; ++i; console.log(text)}
+let stars1 = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
+
+let stars1index = -1;
+while (stars1index <= stars1.length) {stars1index++; console.log(stars1[stars1index]);}
+
+
+
+
 // i dont think this is write but this is the best i can do for right now
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
